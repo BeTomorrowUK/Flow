@@ -168,12 +168,12 @@ void global_data_reset_param_defaults(void){
 	global_data.param_access[PARAM_MAX_FLOW_PIXEL] = READ_ONLY;
 
 //	global_data.param[PARAM_BOTTOM_FLOW_VALUE_THRESHOLD] = 8 * 8 * 20;
-	global_data.param[PARAM_BOTTOM_FLOW_VALUE_THRESHOLD] = 5000; // threshold is irrelevant with this value
+	global_data.param[PARAM_BOTTOM_FLOW_VALUE_THRESHOLD] = 7000; // threshold is irrelevant with this value
 	strcpy(global_data.param_name[PARAM_BOTTOM_FLOW_VALUE_THRESHOLD], "BFLOW_V_THLD");
 	global_data.param_access[PARAM_BOTTOM_FLOW_VALUE_THRESHOLD] = READ_WRITE;
 
 //	global_data.param[PARAM_BOTTOM_FLOW_FEATURE_THRESHOLD] = 100;
-	global_data.param[PARAM_BOTTOM_FLOW_FEATURE_THRESHOLD] = 40;
+	global_data.param[PARAM_BOTTOM_FLOW_FEATURE_THRESHOLD] = 20;
 	strcpy(global_data.param_name[PARAM_BOTTOM_FLOW_FEATURE_THRESHOLD], "BFLOW_F_THLD");
 	global_data.param_access[PARAM_BOTTOM_FLOW_FEATURE_THRESHOLD] = READ_WRITE;
 
@@ -231,7 +231,7 @@ void global_data_reset_param_defaults(void){
 	strcpy(global_data.param_name[PARAM_AGC], "AGC");
 	global_data.param_access[PARAM_AGC] = READ_WRITE;
 
-	global_data.param[PARAM_BRIGHT] = 60;
+	global_data.param[PARAM_BRIGHT] = 30;
 	strcpy(global_data.param_name[PARAM_BRIGHT], "BRIGHT");
 	global_data.param_access[PARAM_BRIGHT] = READ_WRITE;
 
