@@ -199,11 +199,11 @@ void global_data_reset_param_defaults(void){
 	strcpy(global_data.param_name[PARAM_BOTTOM_FLOW_PUB_RATE], "BFLOW_RATE");
 	global_data.param_access[PARAM_BOTTOM_FLOW_PUB_RATE] = READ_WRITE;
 
-	global_data.param[PARAM_EXPOSURE_MAX] = 500;
+	global_data.param[PARAM_EXPOSURE_MAX] = 200;
 	strcpy(global_data.param_name[PARAM_EXPOSURE_MAX], "EXPOSURE_MAX");
 	global_data.param_access[PARAM_EXPOSURE_MAX] = READ_WRITE;
 
-	global_data.param[PARAM_GAIN_MAX] = 16;
+	global_data.param[PARAM_GAIN_MAX] = 30;
 	strcpy(global_data.param_name[PARAM_GAIN_MAX], "GAIN_MAX");
 	global_data.param_access[PARAM_GAIN_MAX] = READ_WRITE;
 
@@ -231,7 +231,7 @@ void global_data_reset_param_defaults(void){
 	strcpy(global_data.param_name[PARAM_AGC], "AGC");
 	global_data.param_access[PARAM_AGC] = READ_WRITE;
 
-	global_data.param[PARAM_BRIGHT] = 30;
+	global_data.param[PARAM_BRIGHT] = 40;
 	strcpy(global_data.param_name[PARAM_BRIGHT], "BRIGHT");
 	global_data.param_access[PARAM_BRIGHT] = READ_WRITE;
 
